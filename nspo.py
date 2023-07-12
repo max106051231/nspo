@@ -7,9 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/16P6r6tQ7PV2UrFilEH1WlYdlGLDqHb14
 """
 
-from google.colab import drive
-drive.mount('/content/drive')
-
 import os
 
 
@@ -50,7 +47,7 @@ filenames = image_url.split("/")
 url_response = urllib.request.urlopen(image_url)
 img_array = np.array(bytearray(url_response.read()), dtype=np.uint8)
 img = cv.imdecode(img_array, cv.IMREAD_COLOR)
-print(filenames)
+#print(filenames)
 num_classes = 6
 batch_size = 10
 img_size = (160, 160)
@@ -94,11 +91,13 @@ import time
 import numpy as np
 
 
-model_path = '/content/drive/MyDrive/submission_end/model.tflite/model.tflite'
-
+model_path = 'https://github.com/max106051231/nspo/raw/cbf6cb739cc241af8038b9c5d664f20004569c7a/model.tflite'
+model_path = urllib.request.urlretrieve(model_path,"model.tflite")
 # Load the labels into a list
 classes = ['???'] * 1000
-label_map = open('/content/drive/MyDrive/submission_end/model.tflite/labelmap.txt','r')
+label_map = 'https://raw.githubusercontent.com/max106051231/nspo/cbf6cb739cc241af8038b9c5d664f20004569c7a/labelmap.txt'
+label_map = urllib.request.urlretrieve(label_map,"labelmap.txt")
+label_map = open("labelmap.txt",'r')
 label_line = label_map.readlines()
 t = 0
 for label_name in label_line:
@@ -248,7 +247,7 @@ for line in filenames[-1]:
         new_img_1 = new_img
         DETECTION_THRESHOLD = 0.3
 
-        interpreter = tf.lite.Interpreter(model_path=model_path)
+        interpreter = tf.lite.Interpreter(model_path="model.tflite")
         interpreter.allocate_tensors()
         signatures = interpreter.get_signature_list()
         #print(signatures)
