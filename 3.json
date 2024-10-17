@@ -1,0 +1,95 @@
+{
+  "hero": "ROGUE",
+  "level": 8,
+  "exp": 157,
+  "consumables": {
+    "1": [],
+    "2": [],
+    "3": [
+      "WARP_STONE",
+      "WARP_STONE"
+    ],
+    "4": [
+      "WARP_STONE",
+      "WARP_STONE"
+    ],
+    "5": [
+      "SPEED",
+      "SPEED"
+    ]
+  },
+  "items": [
+    [
+      "BLOOD_AMULET~:HEALTH_REGEN:0.2:MAX_MANA:7:MAX_HEALTH:9~",
+      "Blood amulet"
+    ],
+    [
+      "ELITE_HELMET~:ARMOR:3~",
+      "Elite helmet"
+    ],
+    [
+      "DRUIDS_RING~:MANA_REGEN:0.7:HEALTH_REGEN:0.4~:MAX_HEALTH:30",
+      "Vigorous Druid ring"
+    ],
+    [
+      "ROYAL_DAGGER~:PHYSICAL_DAMAGE:0.33000000000000007~",
+      "Royal dagger"
+    ],
+    [
+      "KNIGHTS_ARMOR~:ARMOR:2~",
+      "Knight armor"
+    ],
+    [
+      "BLESSED_CHALICE~:HEALTH_REGEN:1.2~:HEALTH_REGEN:1.0999999999999999",
+      "Chalice of Regrowth"
+    ],
+    [
+      "BLESSED_SHIELD~:ARMOR:2:BLOCK_AMOUNT:6~",
+      "Blessed shield"
+    ],
+    [
+      "HATCHET~:PHYSICAL_DAMAGE:0.14~:HEALTH_REGEN:0.2",
+      "Hatchet of Rejuvenation"
+    ],
+    [
+      "ORB_OF_THE_MAGI~:MAGIC_DAMAGE:0.14~",
+      "Spell orb"
+    ],
+    [
+      "QUEST_FROG~~",
+      "Frog"
+    ],
+    [
+      "WAND~:MANA_REGEN:0.3:MAX_MANA:15~",
+      "Mage wand"
+    ],
+    [
+      "HATCHET~:PHYSICAL_DAMAGE:0.13~",
+      "Hatchet"
+    ]
+  ],
+  "money": 37,
+  "enabled_portals": {
+    "GOBLIN_HIDEOUT_REMOTE": "PORTAL_BLUE",
+    "DWARF_CAMP_REMOTE": "PORTAL_RED",
+    "GOBLIN_FORTRESS_REMOTE": "PORTAL_DARK",
+    "RED_BARON_FORTRESS_REMOTE": "PORTAL_GREEN",
+    "DEMON_HALL_REMOTE": "PORTAL_PURPLE",
+    "DWARF_CAMP_BASE": "PORTAL_RED",
+    "GOBLIN_FORTRESS_BASE": "PORTAL_DARK"
+  },
+  "talents": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "total_time_played": 1109580,
+  "active_quests": [
+    "RETRIEVE_FROG"
+  ],
+  "completed_quests": []
+}

@@ -1,0 +1,89 @@
+{
+  "hero": "WARRIOR",
+  "level": 7,
+  "exp": 562,
+  "consumables": {
+    "1": [
+      "WARP_STONE"
+    ],
+    "2": [
+      "MANA_LESSER",
+      "MANA_LESSER"
+    ],
+    "3": [],
+    "4": [],
+    "5": []
+  },
+  "items": [
+    [
+      "AMULET_OF_MANA~:MANA_REGEN:0.6~:MAGIC_RESIST_CHANCE:0.13999999999999999",
+      "Spirituous Arcane necklace"
+    ],
+    [
+      "MESSENGERS_HAT~:MOVEMENT_SPEED:0.2~",
+      "Messenger hat"
+    ],
+    null,
+    [
+      "CLEAVER~:PHYSICAL_DAMAGE:0.41~",
+      "The Cleaver"
+    ],
+    [
+      "GLADIATOR_ARMOR~:ARMOR:2:DAMAGE:0.13999999999999999~:MAGIC_DAMAGE:0.14",
+      "Chaotic Gladiator armor"
+    ],
+    [
+      "CANDLE~:MAGIC_RESIST_CHANCE:0.12:MAX_MANA:10:MANA_REGEN:0.1~",
+      "Eternal Light"
+    ],
+    [
+      "WHIP~:PHYSICAL_DAMAGE:0.18:LIFE_STEAL:0.07:LIFE_ON_KILL:1~",
+      "Taskmaster's whip"
+    ],
+    [
+      "BLESSED_CHALICE~:HEALTH_REGEN:1.6~",
+      "Chalice"
+    ],
+    [
+      "ORB_OF_WISDOM~:MANA_REGEN:0.8~:PHYSICAL_DAMAGE:0.09:MOVEMENT_SPEED:0.15",
+      "Reckless Arcane orb of Swiftness"
+    ],
+    [
+      "QUEST_CORRUPTED_ORB~~",
+      "Corrupted Orb"
+    ],
+    [
+      "WAND~:MANA_REGEN:0.4:MAX_MANA:12~:BLOCK_CHANCE:0.08",
+      "Mage wand of Confidence"
+    ],
+    [
+      "STONE_AMULET~~",
+      "Stone amulet"
+    ]
+  ],
+  "money": 49,
+  "enabled_portals": {
+    "GOBLIN_HIDEOUT_REMOTE": "PORTAL_BLUE",
+    "DWARF_CAMP_REMOTE": "PORTAL_RED",
+    "GOBLIN_FORTRESS_REMOTE": "PORTAL_DARK",
+    "RED_BARON_FORTRESS_REMOTE": "PORTAL_GREEN",
+    "DEMON_HALL_REMOTE": "PORTAL_PURPLE",
+    "DWARF_CAMP_BASE": "PORTAL_RED",
+    "GOBLIN_FORTRESS_BASE": "PORTAL_DARK",
+    "RED_BARON_FORTRESS_BASE": "PORTAL_GREEN"
+  },
+  "talents": [
+    1,
+    1,
+    0,
+    1,
+    null,
+    null,
+    null
+  ],
+  "total_time_played": 908099,
+  "active_quests": [],
+  "completed_quests": [
+    "RETRIEVE_FROG"
+  ]
+}
