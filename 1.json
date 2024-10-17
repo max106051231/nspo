@@ -1,0 +1,53 @@
+{
+  "hero": "MAGE",
+  "level": 1,
+  "exp": 0,
+  "consumables": {
+    "1": [
+      "HEALTH_LESSER"
+    ],
+    "2": [
+      "MANA_LESSER"
+    ],
+    "3": [],
+    "4": [],
+    "5": []
+  },
+  "items": [
+    null,
+    null,
+    null,
+    [
+      "NOVICE_WAND~:MANA_REGEN:0.25~",
+      "Novice wand"
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "money": 0,
+  "enabled_portals": {
+    "GOBLIN_HIDEOUT_REMOTE": "PORTAL_BLUE",
+    "DWARF_CAMP_REMOTE": "PORTAL_RED",
+    "GOBLIN_FORTRESS_REMOTE": "PORTAL_DARK",
+    "RED_BARON_FORTRESS_REMOTE": "PORTAL_GREEN",
+    "DEMON_HALL_REMOTE": "PORTAL_PURPLE"
+  },
+  "talents": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "total_time_played": 1270,
+  "active_quests": [],
+  "completed_quests": []
+}
