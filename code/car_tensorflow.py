@@ -95,7 +95,7 @@ model_path = 'https://github.com/max106051231/tensorflow_object_detection_car/bl
 model_path = urllib.request.urlretrieve(model_path,"model.tflite")
 # Load the labels into a list
 classes = ['???'] * 1000
-label_map = 'https://raw.githubusercontent.com/max106051231/nspo/cbf6cb739cc241af8038b9c5d664f20004569c7a/labelmap.txt'
+label_map = 'https://github.com/max106051231/tensorflow_object_detection_car/blob/main/labelmap/labelmap.txt'
 label_map = urllib.request.urlretrieve(label_map,"labelmap.txt")
 label_map = open("labelmap.txt",'r')
 label_line = label_map.readlines()
