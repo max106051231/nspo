@@ -1,2 +1,2 @@
-# 資安實務專題_物件分類(物件偵測)
-使用tensorflow object detection
+# 影像辨識(車用物件偵測)
+使用tensorflow_object_detection進行設計改良
