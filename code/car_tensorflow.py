@@ -91,7 +91,7 @@ import time
 import numpy as np
 
 
-model_path = 'https://github.com/max106051231/nspo/raw/cbf6cb739cc241af8038b9c5d664f20004569c7a/model.tflite'
+model_path = 'https://github.com/max106051231/tensorflow_object_detection_car/blob/main/tflite_model/model2.tflite'
 model_path = urllib.request.urlretrieve(model_path,"model.tflite")
 # Load the labels into a list
 classes = ['???'] * 1000
