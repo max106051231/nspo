@@ -39,7 +39,7 @@ import urllib
 from IPython.display import clear_output
 import matplotlib.pyplot as plt
 import matplotlib.image
-image_url = 'https://github.com/max106051231/nspo/blob/83c2b9132bff231b6d02b3c7732108efe3876526/itp_1000.jpg?raw=true'
+image_url = 'https://github.com/max106051231/tensorflow_object_detection_car/blob/main/test_image/itp_1000.jpg?raw=true'
 
 filenames = image_url.split("/")
 
